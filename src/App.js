@@ -34,7 +34,7 @@ function App() {
           // <p>Bakery Item {index}</p> // replace with BakeryItem component
         )
       )}
-      <div>
+      <div className="lastPart">
         <h2>Cart</h2>
         {/* TODO: render a list of items in the cart */}
         {cartItems.map((item, index) => (

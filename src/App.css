@@ -17,8 +17,15 @@
 
 .cart {
   display: flex;
+  justify-content: center;
 }
 
-h1 {
+h1,
+h2,
+h4 {
+  text-align: center;
+}
+
+.lastPart {
   text-align: center;
 }
